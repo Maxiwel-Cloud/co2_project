@@ -1,0 +1,16 @@
+{
+  "r2": 0.8375010601379441,
+  "rmse": 2.569516964614192,
+  "mae": 0.8491027911820366,
+  "features": [
+    "gdp",
+    "population",
+    "primary_energy_consumption"
+  ],
+  "target": "co2_per_capita",
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  }
+}

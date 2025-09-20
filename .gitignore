@@ -1,0 +1,21 @@
+# Python venv
+venv/
+# Bytecode
+__pycache__/
+*.pyc
+# Jupyter
+.ipynb_checkpoints/
+# OS
+.DS_Store
+# Data & large files (do NOT commit large datasets)
+data/
+*.csv
+# Local env files
+.env
+# Models (ignore heavy binary model files; keep small text reports if you want)
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.onnx
+# Logs
+*.log
