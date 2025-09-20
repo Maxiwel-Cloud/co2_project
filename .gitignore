@@ -19,3 +19,5 @@ models/*.h5
 models/*.onnx
 # Logs
 *.log
+!data/owid-co2-data.csv
+!data/owid-co2-data.csv
