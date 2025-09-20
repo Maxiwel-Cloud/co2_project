@@ -1,23 +1,12 @@
-# Python venv
+# Ignore virtual environment
 venv/
-# Bytecode
+
+# Ignore Python cache
 __pycache__/
 *.pyc
-# Jupyter
-.ipynb_checkpoints/
-# OS
-.DS_Store
-# Data & large files (do NOT commit large datasets)
-data/
-*.csv
-# Local env files
-.env
-# Models (ignore heavy binary model files; keep small text reports if you want)
-models/*.joblib
+
+# Ignore models (optional if models are large, but keep the folder structure)
 models/*.pkl
-models/*.h5
-models/*.onnx
-# Logs
-*.log
-!data/owid-co2-data.csv
+
+# Allow dataset CSV inside data/
 !data/owid-co2-data.csv
